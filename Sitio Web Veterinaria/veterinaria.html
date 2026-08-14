@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Veterinaria Huellitas - Cuidamos a quienes llenan tu vida de amor">
+    <title>Veterinaria Huellitas</title>
+    <link rel="stylesheet" href="veterinaria.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="contenedor nav">
+
+        <a href="#inicio" class="logo">
+            <div class="logo-pata">🐾</div>
+            <div>
+                <strong>Veterinaria</strong>
+                <span>Huellitas</span>
+            </div>
+        </a>
+
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#horarios">Horarios</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="acciones">
+            <a href="#cita" class="btn-cita">Agendar cita</a>
+            <button id="btnMenu" class="btn-menu">☰</button>
+        </div>
+
+    </div>
+
+    <div id="menuMovil" class="menu-movil">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#cita">Agendar cita</a>
+    </div>
+
+</header>
+
+
+<main>
+
+<!-- ================= INICIO ================= -->
+
+<section id="inicio" class="hero">
+
+    <div class="hero-decoracion decoracion-1">🐾</div>
+    <div class="hero-decoracion decoracion-2">♡</div>
+
+    <div class="contenedor hero-grid">
+
+        <div class="hero-texto">
+
+            <div class="mini-titulo">
+                <span>🐾</span>
+                CUIDAMOS CON AMOR
+            </div>
+
+            <h1>
+                Cuidamos a quienes
+                <span>llenan tu vida de amor.</span>
+            </h1>
+
+            <p>
+                En <strong>Veterinaria Huellitas</strong> nos preocupamos
+                por la salud y el bienestar de tus mascotas. Ofrecemos
+                atención veterinaria con cariño, responsabilidad y
+                compromiso, brindando un espacio seguro y confiable
+                para tus fieles compañeros.
+            </p>
+
+            <div class="hero-botones">
+
+                <a href="#servicios" class="btn-principal">
+                    Conoce nuestros servicios
+                </a>
+
+                <a href="#cita" class="btn-blanco">
+                    📅 Agendar cita
+                </a>
+
+            </div>
+
+            <div class="confianza">
+
+                <div class="confianza-item">
+                    <strong>🐶</strong>
+                    <span>Atención<br>para perros</span>
+                </div>
+
+                <div class="confianza-item">
+                    <strong>🐱</strong>
+                    <span>Atención<br>para gatos</span>
+                </div>
+
+                <div class="confianza-item">
+                    <strong>❤️</strong>
+                    <span>Cuidado<br>responsable</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-imagen">
+
+            <div class="circulo-amarillo"></div>
+
+            <img
+                src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=85"
+                alt="Perro recibiendo atención veterinaria">
+
+            <div class="tarjeta-flotante">
+
+                <div class="check">✓</div>
+
+                <div>
+                    <strong>Atención con amor</strong>
+                    <span>Tu mascota está en buenas manos</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FRASE ================= -->
+
+<section class="frase">
+
+    <div class="contenedor frase-contenido">
+
+        <div class="frase-pata">🐾</div>
+
+        <div>
+            <span>VETERINARIA HUELLITAS</span>
+
+            <h2>
+                Un espacio de amor y cuidado
+                para los animales.
+            </h2>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICIOS ================= -->
+
+<section id="servicios" class="servicios">
+
+    <div class="contenedor">
+
+        <div class="encabezado-seccion">
+
+            <div>
+                <span>NUESTROS SERVICIOS</span>
+
+                <h2>
+                    Cuidado para cada
+                    etapa de su vida
+                </h2>
+            </div>
+
+            <p>
+                Brindamos servicios veterinarios pensados para
+                proteger la salud y bienestar de tus mascotas.
+            </p>
+
+        </div>
+
+
+        <div class="servicios-grid">
+
+
+            <!-- CONSULTA GENERAL -->
+
+            <article class="servicio-card">
+
+                <div class="servicio-imagen">
+
+                    <img
+                        src="Imagenes_H/general.webp"
+                        alt="Veterinario atendiendo a una mascota">
+
+                </div>
+
+                <div class="servicio-contenido">
+
+                    <div class="numero">01</div>
+
+                    <div class="servicio-icono">
+                        🩺
+                    </div>
+
+                    <h3>Consulta General</h3>
+
+                    <p>
+                        Atendemos a las mascotas que requieren
+                        una evaluación médica básica para cuidar
+                        y mantener su salud.
+                    </p>
+
+                    <button
+                        class="btn-ver"
+                        onclick="abrirServicio('consulta')">
+                        Ver información
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- VACUNACIÓN -->
+
+            <article class="servicio-card">
+
+                <div class="servicio-imagen">
+
+                    <img
+                        src="Imagenes_H/vacunacion.webp"
+                        alt="Atención veterinaria para mascotas">
+
+                </div>
+
+                <div class="servicio-contenido">
+
+                    <div class="numero">02</div>
+
+                    <div class="servicio-icono">
+                        💉
+                    </div>
+
+                    <h3>Vacunación</h3>
+
+                    <p>
+                        Protegemos a tus mascotas mediante un
+                        adecuado control de vacunación.
+                    </p>
+
+                    <button
+                        class="btn-ver"
+                        onclick="abrirServicio('vacunacion')">
+                        Ver información
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- ESTERILIZACIÓN -->
+
+            <article class="servicio-card">
+
+                <div class="servicio-imagen">
+
+                    <img
+                        src="Imagenes_H/ESTERILIZACION.webp"
+                        alt="Perro en atención veterinaria">
+
+                </div>
+
+                <div class="servicio-contenido">
+
+                    <div class="numero">03</div>
+
+                    <div class="servicio-icono">
+                        ✂️
+                    </div>
+
+                    <h3>Esterilización</h3>
+
+                    <p>
+                        Un acto de amor y responsabilidad que
+                        ayuda a mejorar la calidad de vida.
+                    </p>
+
+                    <button
+                        class="btn-ver"
+                        onclick="abrirServicio('esterilizacion')">
+                        Ver información
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= INFORMACIÓN CONSULTA ================= -->
+
+<section class="informacion-servicio">
+
+    <div class="contenedor informacion-grid">
+
+        <div class="informacion-imagen">
+
+            <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=900&q=85"
+                alt="Consulta veterinaria">
+
+            <div class="sello">
+                <span>🐾</span>
+                <strong>Huellitas</strong>
+                <small>Cuidado responsable</small>
+            </div>
+
+        </div>
+
+
+        <div class="informacion-texto">
+
+            <span class="etiqueta">
+                01 · CONSULTA GENERAL
+            </span>
+
+            <h2>
+                Una evaluación para
+                cuidar su salud
+            </h2>
+
+            <p>
+                Atendemos a todas las mascotas que requieren
+                una evaluación médica básica.
+            </p>
+
+
+            <div class="acordeon">
+
+                <div class="acordeon-item activo">
+
+                    <button class="acordeon-titulo">
+
+                        <span>🐾</span>
+
+                        ¿Qué ofrecemos?
+
+                        <b>−</b>
+
+                    </button>
+
+                    <div class="acordeon-contenido">
+
+                        <ul>
+
+                            <li>
+                                Valoración integral del estado
+                                de salud de tu mascota.
+                            </li>
+
+                            <li>
+                                Diagnóstico preliminar de
+                                enfermedades comunes.
+                            </li>
+
+                            <li>
+                                Recomendaciones médicas.
+                            </li>
+
+                            <li>
+                                Tratamientos iniciales.
+                            </li>
+
+                            <li>
+                                Derivación a servicios especializados
+                                cuando sea necesario.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <div class="acordeon-item">
+
+                    <button class="acordeon-titulo">
+
+                        <span>🐾</span>
+
+                        ¿Quiénes pueden acceder?
+
+                        <b>+</b>
+
+                    </button>
+
+                    <div class="acordeon-contenido">
+
+                        <p>
+                            Nuestro servicio está dirigido a la
+                            población en general, brindando atención
+                            a las personas que buscan cuidar la salud
+                            y el bienestar de sus mascotas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="acordeon-item">
+
+                    <button class="acordeon-titulo">
+
+                        <span>🐾</span>
+
+                        ¿Qué tipo de mascotas atendemos?
+
+                        <b>+</b>
+
+                    </button>
+
+                    <div class="acordeon-contenido">
+
+                        <ul>
+                            <li>Perros</li>
+                            <li>Gatos</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <div class="acordeon-item">
+
+                    <button class="acordeon-titulo">
+
+                        <span>🐾</span>
+
+                        Requisitos
+
+                        <b>+</b>
+
+                    </button>
+
+                    <div class="acordeon-contenido">
+
+                        <p>
+                            Para recibir atención veterinaria,
+                            se deberán cumplir los requisitos
+                            establecidos por Veterinaria Huellitas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= VACUNACIÓN ================= -->
+
+<section class="vacunacion">
+
+    <div class="contenedor vacunacion-grid">
+
+        <div class="vacunacion-texto">
+
+            <span class="etiqueta-blanca">
+                02 · PREVENCIÓN
+            </span>
+
+            <h2>
+                Vacunar es proteger
+                su futuro.
+            </h2>
+
+            <p>
+                Protegemos a tus mascotas mediante un adecuado
+                control de vacunación, ayudando a prevenir
+                diferentes enfermedades y mantenerlas saludables.
+            </p>
+
+            <div class="lista-blanca">
+
+                <div>
+
+                    <span>✓</span>
+
+                    <p>
+                        Previene enfermedades graves y contagiosas.
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <span>✓</span>
+
+                    <p>
+                        Protege a tu mascota y a las personas
+                        que la rodean.
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <span>✓</span>
+
+                    <p>
+                        Requisito para viajes, adopciones y
+                        registros legales.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="acceso">
+
+                <strong>
+                    🐾 ¿Quiénes pueden acceder?
+                </strong>
+
+                <p>
+                    Mascotas con dueño responsable.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="vacunacion-imagen">
+
+            <img
+                src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=900&q=85"
+                alt="Veterinario atendiendo una mascota">
+
+            <div class="burbuja">
+
+                💉
+
+                <strong>Prevención</strong>
+
+                <span>es amor</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ESTERILIZACIÓN ================= -->
+
+<section class="esterilizacion">
+
+    <div class="contenedor">
+
+        <div class="encabezado-seccion">
+
+            <div>
+
+                <span>
+                    03 · RESPONSABILIDAD
+                </span>
+
+                <h2>
+                    Esterilización de mascotas
+                </h2>
+
+            </div>
+
+            <p>
+                La esterilización es un acto de amor y responsabilidad.
+                Ayuda a controlar la sobrepoblación y mejorar su calidad de vida.
+            </p>
+
+        </div>
+
+
+        <div class="esterilizacion-grid">
+
+            <div class="esterilizacion-imagen">
+
+                <img
+                    src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=85">
+
+            </div>
+
+
+            <div class="beneficios-esterilizacion">
+
+                <h3>
+                    🐾 Beneficios de esterilizar
+                </h3>
+
+                <div class="beneficio">
+
+                    <span>01</span>
+
+                    <p>
+                        Previene camadas no deseadas.
+                    </p>
+
+                </div>
+
+                <div class="beneficio">
+
+                    <span>02</span>
+
+                    <p>
+                        Reduce el abandono de animales.
+                    </p>
+
+                </div>
+
+                <div class="beneficio">
+
+                    <span>03</span>
+
+                    <p>
+                        Disminuye el riesgo de ciertos
+                        tipos de cáncer.
+                    </p>
+
+                </div>
+
+                <div class="beneficio">
+
+                    <span>04</span>
+
+                    <p>
+                        Disminuye comportamientos agresivos.
+                    </p>
+
+                </div>
+
+                <div class="beneficio">
+
+                    <span>05</span>
+
+                    <p>
+                        Mejora la salud general y longevidad.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= REQUISITOS ================= -->
+
+<section class="requisitos">
+
+    <div class="contenedor requisitos-grid">
+
+        <div>
+
+            <span>
+                ANTES DEL PROCEDIMIENTO
+            </span>
+
+            <h2>
+                Requisitos para
+                esterilización
+            </h2>
+
+            <p>
+                Para garantizar la seguridad de la mascota,
+                se deberán cumplir las siguientes condiciones.
+            </p>
+
+        </div>
+
+
+        <div class="requisitos-lista">
+
+            <div>
+
+                <span>🐾</span>
+
+                <p>
+                    <strong>Edad mínima:</strong>
+                    4 a 6 meses.
+                </p>
+
+            </div>
+
+            <div>
+
+                <span>🩺</span>
+
+                <p>
+                    Se solicitarán exámenes de rutina,
+                    previa a revisión médica.
+                </p>
+
+            </div>
+
+            <div>
+
+                <span>🍽️</span>
+
+                <p>
+                    Ayuno de 8 a 12 horas antes de la cirugía.
+                </p>
+
+            </div>
+
+            <div>
+
+                <span>🐕</span>
+
+                <p>
+                    Presentar con correa, jaula o transportador.
+                </p>
+
+            </div>
+
+            <div>
+
+                <span>🪪</span>
+
+                <p>
+                    Documento de identidad del responsable.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CUIDADOS ================= -->
+
+<section class="cuidados">
+
+    <div class="contenedor">
+
+        <div class="encabezado-centro">
+
+            <span>
+                CUIDADOS IMPORTANTES
+            </span>
+
+            <h2>
+                Acompañamos a tu mascota
+                antes y después.
+            </h2>
+
+            <p>
+                Sigue estas recomendaciones para favorecer
+                una recuperación tranquila y segura.
+            </p>
+
+        </div>
+
+
+        <div class="cuidados-grid">
+
+            <article class="cuidado-card">
+
+                <div class="cuidado-numero">
+                    01
+                </div>
+
+                <div class="cuidado-icono">
+                    🩺
+                </div>
+
+                <h3>
+                    Antes de la cirugía
+                </h3>
+
+                <p>
+                    La mascota será evaluada por el personal
+                    veterinario para determinar si se encuentra
+                    en condiciones adecuadas para el procedimiento.
+                </p>
+
+                <p>
+                    El responsable recibirá las indicaciones
+                    necesarias sobre alimentación, ayuno y
+                    cuidados previos.
+                </p>
+
+            </article>
+
+
+            <article class="cuidado-card">
+
+                <div class="cuidado-numero">
+                    02
+                </div>
+
+                <div class="cuidado-icono">
+                    ❤️
+                </div>
+
+                <h3>
+                    Después de la esterilización
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Seguir todas las indicaciones
+                        del veterinario.
+                    </li>
+
+                    <li>
+                        Mantener a la mascota en un lugar
+                        limpio, tranquilo y seguro.
+                    </li>
+
+                    <li>
+                        Evitar juegos bruscos y actividad
+                        física intensa.
+                    </li>
+
+                    <li>
+                        Vigilar la zona de la cirugía.
+                    </li>
+
+                    <li>
+                        Evitar que la mascota se lama o
+                        manipule la zona intervenida.
+                    </li>
+
+                    <li>
+                        Asistir a los controles indicados.
+                    </li>
+
+                </ul>
+
+            </article>
+
+        </div>
+
+
+        <div class="importante">
+
+            <div class="importante-icono">
+                !
+            </div>
+
+            <div>
+
+                <strong>
+                    Importante
+                </strong>
+
+                <p>
+                    Cada mascota es diferente. La edad, estado
+                    de salud y condiciones del animal deben ser
+                    evaluados por un profesional veterinario
+                    antes de realizar cualquier procedimiento.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= HORARIOS ================= -->
+
+<section id="horarios" class="horarios">
+
+    <div class="contenedor horarios-grid">
+
+        <div class="horarios-intro">
+
+            <span>
+                ESTAMOS PARA AYUDARTE
+            </span>
+
+            <h2>
+                Horarios de atención
+            </h2>
+
+            <p>
+                Organiza tu visita y acércate con tu mascota.
+                Nuestro equipo estará listo para atenderte.
+            </p>
+
+            <div class="huella-grande">
+                🐾
+            </div>
+
+        </div>
+
+
+        <div class="horarios-tabla">
+
+            <div class="horario-dia">
+
+                <div>
+
+                    <span>📅</span>
+
+                    <strong>
+                        Lunes a viernes
+                    </strong>
+
+                </div>
+
+                <div class="horas">
+
+                    <p>
+                        8:00 AM - 12:00 PM
+                    </p>
+
+                    <p>
+                        2:00 PM - 5:30 PM
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="horario-dia">
+
+                <div>
+
+                    <span>☀️</span>
+
+                    <strong>
+                        Sábado
+                    </strong>
+
+                </div>
+
+                <div class="horas">
+
+                    <p>
+                        8:00 AM - 1:00 PM
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="horario-cerrado">
+
+                <span>ℹ️</span>
+
+                <p>
+                    Recomendamos consultar previamente
+                    la disponibilidad para procedimientos.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CITA ================= -->
+
+<section id="cita" class="cita">
+
+    <div class="contenedor cita-contenedor">
+
+        <div class="cita-texto">
+
+            <span>
+                AGENDA TU VISITA
+            </span>
+
+            <h2>
+                La salud de tu mascota
+                empieza con una visita.
+            </h2>
+
+            <p>
+                Completa el formulario y solicita una cita
+                en Veterinaria Huellitas.
+            </p>
+
+            <div class="cita-dato">
+
+                <span>🐾</span>
+
+                <p>
+                    Atención para perros y gatos.
+                </p>
+
+            </div>
+
+            <div class="cita-dato">
+
+                <span>❤️</span>
+
+                <p>
+                    Cuidado responsable y comprometido.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <form id="formCita" class="form-cita">
+
+            <h3>
+                Solicitar una cita
+            </h3>
+
+            <label>
+                Nombre del responsable
+            </label>
+
+            <input
+                type="text"
+                required
+                placeholder="Nombre completo">
+
+
+            <label>
+                Nombre de la mascota
+            </label>
+
+            <input
+                type="text"
+                required
+                placeholder="Nombre de tu mascota">
+
+
+            <label>
+                Tipo de mascota
+            </label>
+
+            <select required>
+
+                <option value="">
+                    Selecciona una opción
+                </option>
+
+                <option>
+                    Perro
+                </option>
+
+                <option>
+                    Gato
+                </option>
+
+            </select>
+
+
+            <label>
+                Servicio
+            </label>
+
+            <select required>
+
+                <option value="">
+                    Selecciona un servicio
+                </option>
+
+                <option>
+                    Consulta General
+                </option>
+
+                <option>
+                    Vacunación
+                </option>
+
+                <option>
+                    Esterilización
+                </option>
+
+            </select>
+
+
+            <label>
+                Fecha
+            </label>
+
+            <input
+                type="date"
+                id="fechaCita"
+                required>
+
+
+            <button
+                type="submit"
+                class="btn-principal">
+
+                Solicitar cita
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NOSOTROS ================= -->
+
+<section id="nosotros" class="nosotros">
+
+    <div class="contenedor nosotros-grid">
+
+        <div class="nosotros-imagen">
+
+            <img
+                src="Imagenes_H/gato.jpg"
+                alt="Cuidado de mascotas">
+
+        </div>
+
+
+        <div class="nosotros-texto">
+
+            <span>
+                SOBRE NOSOTROS
+            </span>
+
+            <h2>
+                Más que una veterinaria,
+                somos parte de su familia.
+            </h2>
+
+            <p>
+                En Veterinaria Huellitas nos preocupamos por
+                brindar un espacio seguro y confiable para
+                los fieles compañeros de nuestras familias.
+            </p>
+
+            <p>
+                Trabajamos con cariño, responsabilidad y
+                compromiso para promover el bienestar animal
+                y la tenencia responsable de mascotas.
+            </p>
+
+            <div class="valores">
+
+                <div>
+                    <strong>❤️</strong>
+                    <span>Amor</span>
+                </div>
+
+                <div>
+                    <strong>🩺</strong>
+                    <span>Responsabilidad</span>
+                </div>
+
+                <div>
+                    <strong>🐾</strong>
+                    <span>Compromiso</span>
+                </div>
+
+                <div>
+                    <strong>🤝</strong>
+                    <span>Confianza</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACTO ================= -->
+
+<section id="contacto" class="contacto">
+
+    <div class="contenedor contacto-grid">
+
+        <div>
+
+            <span>
+                CONTÁCTANOS
+            </span>
+
+            <h2>
+                Estamos aquí
+                para ayudarte.
+            </h2>
+
+            <p>
+                Si tienes dudas sobre nuestros servicios,
+                horarios o procedimientos, puedes
+                comunicarte con nosotros.
+            </p>
+
+        </div>
+
+
+        <div class="contacto-datos">
+
+            <div class="contacto-card">
+
+                <div>📞</div>
+
+                <span>
+                    Teléfono
+                </span>
+
+                <strong>
+                    +504 9999-2026
+                </strong>
+
+            </div>
+
+
+            <div class="contacto-card">
+
+                <div>✉️</div>
+
+                <span>
+                    Correo
+                </span>
+
+                <strong>
+                    huellitas@veterinaria.com
+                </strong>
+
+            </div>
+
+
+            <div class="contacto-card">
+
+                <div>📍</div>
+
+                <span>
+                    Ubicación
+                </span>
+
+                <strong>
+                    San Manuel Cortés
+                </strong>
+
+            </div>
+
+
+            <div class="contacto-card">
+
+                <div>🕐</div>
+
+                <span>
+                    Horario
+                </span>
+
+                <strong>
+                    Lunes a sábado
+                </strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="contenedor footer-grid">
+
+        <div class="footer-marca">
+
+            <a href="#inicio" class="logo">
+
+                <div class="logo-pata">
+                    🐾
+                </div>
+
+                <div>
+                    <strong>
+                        Veterinaria
+                    </strong>
+
+                    <span>
+                        Huellitas
+                    </span>
+                </div>
+
+            </a>
+
+            <p>
+                Cuidamos a quienes llenan tu vida de amor.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Enlaces
+            </h3>
+
+            <a href="#inicio">
+                Inicio
+            </a>
+
+            <a href="#servicios">
+                Servicios
+            </a>
+
+            <a href="#horarios">
+                Horarios
+            </a>
+
+            <a href="#nosotros">
+                Nosotros
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Servicios
+            </h3>
+
+            <a href="#servicios">
+                Consulta General
+            </a>
+
+            <a href="#servicios">
+                Vacunación
+            </a>
+
+            <a href="#servicios">
+                Esterilización
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Contacto
+            </h3>
+
+            <p>
+                📞 +504 9999-2026
+            </p>
+
+            <p>
+                ✉️ huellitas@veterinaria.com
+            </p>
+
+            <p>
+                🇭🇳 Honduras
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        © 2026 Veterinaria Huellitas
+
+    </div>
+
+</footer>
+
+
+<!-- ================= MODAL ================= -->
+
+<div id="modalServicio" class="modal">
+
+    <div class="modal-contenido">
+
+        <button
+            class="cerrar-modal"
+            onclick="cerrarServicio()">
+
+            ×
+
+        </button>
+
+        <div id="contenidoServicio"></div>
+
+    </div>
+
+</div>
+
+
+<!-- MENSAJE -->
+
+<div id="mensaje" class="mensaje"></div>
+
+
+<!-- BOTÓN SUBIR -->
+
+<button
+    id="btnArriba"
+    class="btn-arriba">
+
+    ↑
+
+</button>
+
+
+<script src="veterinaria.js"></script>
+
+</body>
+</html>
